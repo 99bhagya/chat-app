@@ -1,0 +1,30 @@
+<!-- res/layout/item_sent_message.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/chatblue"
+    android:padding="8dp"
+    android:layout_marginStart="64dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/text_view_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:text="This is a sent message." />
+
+    <!-- Add a TextView for timestamp -->
+    <TextView
+        android:id="@+id/text_view_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_content"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:text="12:34 PM" /> <!-- Placeholder text, replace with actual timestamp -->
+
+</RelativeLayout>
